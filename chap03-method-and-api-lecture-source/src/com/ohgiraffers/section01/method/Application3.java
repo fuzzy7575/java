@@ -33,7 +33,7 @@ public class Application3 {
         app3.testMethod(byteAge);
 
         long longAge = 60;
-//        app3.testMethod(longAge);      //자동 형변환을 핳 수 없어서 에러 발생
+//        app3.testMethod(longAge);      //자동 형변환을 할 수 없어서 에러 발생
         app3.testMethod((int) longAge);  //강제 형변환을 이용하여 자료형을 맞춘 후 호출(데이터 손실 주의)
 
         app3.testMethod(age2 * 4);
