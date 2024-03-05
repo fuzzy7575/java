@@ -11,3 +11,8 @@ create database employee;
 grant all privileges on employee.* to 'ohgiraffers'@'%';
 show grants for 'ohgiraffers'@'%';
 use employee;
+
+create database rpg;
+grant all privileges on rpg.* to 'ohgiraffers'@'%';
+show grants for 'ohgiraffers'@'%';
+use rpg;
