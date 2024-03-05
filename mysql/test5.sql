@@ -207,4 +207,3 @@ FROM
 	employee A
 LEFT JOIN employee B ON A.MANAGER_ID = B.EMP_ID;
 */
->>>>>>> e851ac1e895bbc390ac2e97a557767a69aefa529
